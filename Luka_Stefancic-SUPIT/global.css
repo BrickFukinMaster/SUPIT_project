@@ -1,0 +1,164 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #1f2524; 
+}
+
+nav {
+  position: fixed; 
+  width: 100%;
+  background-color:rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content:space-between;
+}
+
+#logo{
+font-size: 2em;
+font-family: articulat-cf,sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+nav p{
+  padding: 0;
+}
+
+span{
+  color: #d1be53;
+  font-weight: bold;
+  font-style: italic;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 10px;
+
+}
+
+nav ul a:hover {
+  background-color: rgba(249, 218, 53, 0.5);
+  color: rgba(0, 0, 0, 0.5);
+}
+
+p{
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-family: articulat-cf,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+footer{
+  background-color: black ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+i{
+  color: #d1be53;
+  font-size: 2em;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+i:hover{
+  color:#ffff;
+}
+
+ul li{
+  padding-top: 5px;
+  font-family: articulat-cf,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#social{
+  margin-bottom: 20px;
+}
+
+.nav-links {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  display: none;
+  background-color: black;
+}
+
+
+.nav-links a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.nav-links.show {
+  display: flex;
+}
+
+h3{
+  color: white; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  font-size: 4em;
+  font-family: articulat-cf,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.Stay-in-touch{
+  font-size: 25px;
+}
+
+footer a{
+  color:#ffff;
+}
+
+footer a:hover{
+  color: #d1be53;
+}
+
+  
+.hamburger{
+  display: none;
+  align-self: center;
+}
+
+
+  .nav-links{
+      display: none;
+  }
+  .hamburger{
+      display:block;
+  }
+
+
